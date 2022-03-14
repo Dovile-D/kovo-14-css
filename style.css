@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    /* background-color: #626868; */
+    
+}
+
+h1 {
+    color: #393424;
+    font-size: 2rem;
+}
+
+.container::before {
+    content: " ";
+    background-image: url("kalnai.jpeg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
